@@ -32,18 +32,11 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-<<<<<<< HEAD
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] **This Assignment is NOT tested. You can use all the desired creativity!**
-=======
 - [x] Fork the project to your github account
 - [x] Clone the project to your computer
 - [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
 - [x] **This Assignment is NOT tested. You can use all the desired creativity!**
->>>>>>> e4a03da (Fixed Readme.md spelling errors)
-- [ ] All the tasks of the "Specific requirements" section MUST be solved
+- [x] All the tasks of the "Specific requirements" section MUST be solved
 - [x] **The project's file/folder structure should NOT be edited!**
 - [x] **The index.html file should NOT be edited!** The only acceptable change are additional classes added to elements.
 - [x] VSCode IDE MUST have 0 problems listed

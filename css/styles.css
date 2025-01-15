@@ -141,8 +141,8 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter, 
-.whyHLetter,
+.whyWLetter , 
+.whyHLetter
 .whyYLetter {
   font-size: 30px;
   font-weight: bold;
@@ -151,8 +151,6 @@ body {
   text-transform: lowercase;
   font-family: 'Ceviche One', sans-serif;
 }
-
-
 
 /* DID word */
 
@@ -167,11 +165,7 @@ body {
 
 .didILetter {
   font-size: 10px;
-<<<<<<< HEAD
-  font-weight: none;
-=======
-  font-weight: normal;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  font-weight: 400;
   color: blueviolet;
   text-decoration: underline;
   text-transform: none;
@@ -180,12 +174,8 @@ body {
 
 .didDTwoLetter {
   font-size: 50px;
-<<<<<<< HEAD
-  font-weight: 100px;
-=======
   font-weight: 100;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  color: rgba(28, 241, 4, 0.884);
+  color: rgb(28, 241, 4);
   text-decoration: none;
   text-transform: lowercase;
   font-family:'Calibri', sans-serif , Arial, serif;
@@ -193,35 +183,8 @@ body {
 
 /* THE word */
 
-<<<<<<< HEAD
-.theTLetter {
-  font-size: 40px;
-  font-weight: 0px;
-  color: aquamarine;
-  text-decoration: wavy;
-  text-transform: uppercase;
-  font-family: 'Roboto', arial , sans-serif;
-}
-
-.theHLetter {
-  font-size: 25px;
-  font-weight: 150px;
-  color:rgba(240, 123, 91, 0.884);
-  text-decoration: wavy;
-  text-transform: none;
-  font-family: Impact , arial;
-}
-
-.theELetter {
-  font-size: 69px;
-  font-weight: 40px;
-  color: rgba(178, 12, 12, 0.727);
-  text-decoration: dotted;
-  text-transform: capitalize;
-  font-family: 'Lato', Arial, Helvetica, sans-serif;
-=======
 .theTLetter,
-.theHLetter,
+.theHLetter
 .theELetter {
   font-size: 40px;
   font-weight: 300;
@@ -229,7 +192,6 @@ body {
   text-decoration: underline;
   text-transform: uppercase;
   font-family: 'Roboto', arial , sans-serif;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
 }
 /* FRONT-END word */
 
@@ -238,33 +200,22 @@ body {
   font-weight: normal;
   color: skyblue;
   text-decoration: underline;
-  text-transform: initial;
+  text-transform: capitalize;
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-
 }
 
 .frontendRLetter {
   font-size: 20px;
-<<<<<<< HEAD
-  font-weight: lighter;
-  color:rgb(107, 231, 94);
-  text-decoration:#282a56;
-=======
   font-weight: 800;
   color:rgb(107, 231, 94);
   text-decoration:none;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-transform: none;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .frontendOLetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 60px;
-=======
-  font-weight: 700;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  font-weight: 600;
   color: beige;
   text-decoration:double;
   text-transform: lowercase;
@@ -282,11 +233,7 @@ body {
 
 .frontendTLetter {
   font-size: 90px;
-<<<<<<< HEAD
-  font-weight: 1px;
-=======
-  font-weight: normal;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  font-weight: 100;
   color: rgb(181, 181, 36);
   text-decoration:double;
   text-transform: none;
@@ -295,11 +242,7 @@ body {
 
 .frontendELetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 60px;
-=======
   font-weight: 600;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(54, 5, 46);
   text-decoration: ivory;
   text-transform: lowercase;
@@ -308,13 +251,8 @@ body {
 
 .frontendNTwoLetter {
   font-size: 43px;
-<<<<<<< HEAD
-  font-weight: 0px;
-  color: rgb(50, 132, 113);
-=======
   font-weight: 100;
   color: black;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:underline;
   text-transform: lowercase;
   font-family: Monospace, Arial, Helvetica, sans-serif;
@@ -322,15 +260,9 @@ body {
 
 .frontendDLetter {
   font-size: 20px;
-<<<<<<< HEAD
-  font-weight: 29px;
-  color: rgb(14, 0, 0);
-  text-decoration: bold;
-=======
   font-weight: 200;
   color: rgb(14, 0, 0);
   text-decoration:line-through;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-transform: bold;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -339,117 +271,79 @@ body {
 
 .developerDLetter {
   font-size: 55px;
-<<<<<<< HEAD
-  font-weight: 10px;
-  color: rgba(22, 71, 6, 0.877);
-=======
   font-weight: 100;
-  color: darkorange;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  color: rgb(22, 71, 6, 0.877);
   text-decoration:none;
   text-transform: lowercase;
 font-family: 'Exile', Arial, Helvetica, sans-serif;
 }
+
 .developerELetter {
   font-size: 44px;
-<<<<<<< HEAD
-  font-weight: 30px;
+  font-weight: 300;
   color: rgb(67, 97, 172);
   text-decoration:dashed;
-=======
-  font-weight: 300;
-  color: silver;
-  text-decoration: dashed;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-transform: capitalize;
   font-family: 'Battambang', Arial, Helvetica, sans-serif;
 }
+
 .developerVLetter {
   font-size: 16px;
-<<<<<<< HEAD
-  font-weight: 22px;
-  color: rgb(255, 255, 0);
-  text-decoration:dotted;
-=======
-  font-weight: 200;
+  font-weight: 300;
   color: indianred;
-  text-decoration: dotted;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  text-decoration:dotted;
   text-transform: capitalize;
   font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
 }
+
 .developerETwoLetter {
   font-size: 33px;
-<<<<<<< HEAD
-  font-weight: 90px;
-  color: rgb(213, 53, 112);
-=======
   font-weight: 900;
-  color: crimson;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  color: rgb(213, 53, 112);
   text-decoration:none;
   text-transform: lowercase;
   font-family: 'Noto Sans Tc', Arial, Helvetica, sans-serif;
 }
+
 .developerLLetter {
   font-size: 22px;
-<<<<<<< HEAD
-  font-weight: 40px;
-  color: rgb(11, 199, 92);
-=======
   font-weight: 400;
-  color: forestgreen;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  color: rgb(11, 199, 92);
   text-decoration:line-through;
   text-transform: capitalize;
   font-family: 'Playwrite DK Loopet', Arial, Helvetica, sans-serif;
 }
+
 .developerOLetter {
   font-size: 70px;
-<<<<<<< HEAD
-  font-weight: 5px;
-  color: rgb(194, 118, 11);
-=======
   font-weight: 500;
-  color: brown;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  color: rgb(194, 118, 11);
   text-decoration:none;
   text-transform: lowercase;
   font-family: 'Playwrite HU', Arial, Helvetica, sans-serif;
 }
+
 .developerPLetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 60px;
-  color: rgb(145, 13, 13);
-=======
   font-weight: 600;
-  color: midnightblue;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  text-decoration:overline;
+  color: rgb(145, 13, 13);
+  text-decoration: overline;
   text-transform: lowercase;
   font-family: 'Poesten One', Arial, Helvetica, sans-serif;
 }
+
 .developerEThreeLetter {
   font-size: 30px;
-<<<<<<< HEAD
-  font-weight: 25px;
-  color: rgb(0, 255, 85);
-=======
   font-weight: 200;
-  color: magenta;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  text-decoration:double;
+  color: rgb(0, 255, 85);
+  text-decoration: double;
   text-transform: capitalize;
   font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
 }
+
 .developerRLetter {
   font-size: 60px;
-<<<<<<< HEAD
-  font-weight: 60px;
-=======
   font-weight: 600;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(11, 85, 92);
   text-decoration:underline;
   text-transform: lowercase;
@@ -458,186 +352,119 @@ font-family: 'Exile', Arial, Helvetica, sans-serif;
 
 /* TAKE word */
 
-<<<<<<< HEAD
-.takeTLetter {
-  font-size: 19px;
-  font-weight: 90px;
-  color: rgb(5, 140, 167);
-  text-decoration:wavy;
-  text-transform: capitalize;
-  font-family: 'Tahoma', Arial, Helvetica, sans-serif;
-}
-.takeALetter {
-  font-size: 30px;
-  font-weight: 1px;
-  color: rgb(39, 32, 121);
-  text-decoration:line-through;
-  text-transform:capitalize;
-  font-family: 'Geneva', Arial, Helvetica, sans-serif;
-}
-.takeKLetter {
-  font-size: 40px;
-  font-weight: 10px;
-  color: rgb(93, 4, 99);
-  text-decoration:wavy;
-  text-transform: capitalize;
-  font-family: 'Cambria',Arial, Helvetica, sans-serif;
-}
+.takeTLetter ,
+.takeALetter
+.takeKLetter
 .takeELetter {
   font-size: 44px;
-  font-weight: 77px;
-  color: rgb(154, 64, 11);
+  font-weight: 700;
+  color: rgb(200, 64, 11);
   text-decoration:dotted;
   text-transform: uppercase;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-=======
+}
+
 .takeTLetter,
-.takeALetter,
-.takeKLetter,
+.takeALetter
+.takeKLetter
 .takeELetter {
   font-size: 40px;
   font-weight: 100;
   color: rgb(93, 4, 99);
   text-decoration:line-through;
   text-transform: capitalize;
-  font-family: 'Cambria',Arial, Helvetica, sans-serif;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  font-family: 'Cambria', Arial, Helvetica, sans-serif;
 }
 
 /* UP word */
 
-<<<<<<< HEAD
-.upULetter {
-  font-size: 50px;
-  font-weight: 30px;
-=======
-.upULetter,
-.upPLetter{
+.upULetter ,
+.upPLetter {
   font-size: 50px;
   font-weight: 200;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  color: rgba(54, 207, 71, 0.542);
-  text-decoration:wavy;
+  color: rgb(54, 207, 71);
+  text-decoration: wavy;
   text-transform: lowercase;
   font-family: 'Playwrite Mx Guides',Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-}
-.upPLetter {
-  font-size: 20px;
-  font-weight: 50px;
-  color: rgb(99, 197, 214);
-  text-decoration:dashed;
-  text-transform:initial;
-  font-family: 'Cherry Bomb One',Arial, Helvetica, sans-serif;
-=======
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
   font-size: 20px;
-<<<<<<< HEAD
-  font-weight: 30px;
-=======
   font-weight: 300;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(17, 201, 91);
   text-decoration:dotted;
   text-transform: lowercase;
   font-family: 'Caveat', Arial, Helvetica, sans-serif;
 }
+
 .gardeningALetter {
   font-size: 67px;
-<<<<<<< HEAD
-  font-weight: 20px;
-=======
   font-weight: 200;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(159, 31, 138);
   text-decoration:dashed;
   text-transform: capitalize;
   font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
 }
+
 .gardeningRLetter {
   font-size: 25px;
-<<<<<<< HEAD
-  font-weight: 71px;
-=======
   font-weight: 700;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgba(20, 228, 44, 0.575);
   text-decoration:line-through;
   text-transform: capitalize;
   font-family: 'Flavors', Arial, Helvetica, sans-serif;
 }
+
 .gardeningDLetter {
   font-size: 44px;
-<<<<<<< HEAD
-  font-weight: 29px;
-=======
   font-weight: 200;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(177, 78, 6);
   text-decoration:underline;
   text-transform: capitalize;
   font-family: 'Jaro', Arial, Helvetica, sans-serif;
 }
+
 .gardeningELetter {
   font-size: 90px;
-<<<<<<< HEAD
-  font-weight: 16px;
-=======
   font-weight: 100;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(141, 141, 10);
   text-decoration:double;
   text-transform: lowercase;
   font-family: 'Tilt Warp', Arial, Helvetica, sans-serif;
 }
+
 .gardeningNLetter {
   font-size: 31px;
-<<<<<<< HEAD
-  font-weight: 47px;
-=======
   font-weight: 400;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(0, 0, 0);
   text-decoration:overline;
   text-transform: lowercase;
   font-family: 'Vast Shadow', Arial, Helvetica, sans-serif;
 }
+
 .gardeningILetter {
   font-size: 10px;
-<<<<<<< HEAD
-  font-weight: 34px;
-=======
   font-weight: 300;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(249, 10, 10);
   text-decoration:double;
   text-transform: capitalize;
   font-family: 'Pacifico', Arial, Helvetica, sans-serif;
 }
+
 .gardeningNTwoLetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 4px;
-=======
   font-weight: 400;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(154, 12, 149);
   text-decoration:dotted;
   text-transform: capitalize;
   font-family: 'Jacques Francois Shadow', Arial, Helvetica, sans-serif;
 }
+
 .gardeningGTwoLetter {
   font-size: 40px;
-<<<<<<< HEAD
-  font-weight: 55px;
-=======
   font-weight: 500;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(10, 154, 125);
   text-decoration:dotted;
   text-transform: capitalize;
@@ -648,88 +475,62 @@ font-family: 'Exile', Arial, Helvetica, sans-serif;
 
 .becauseBLetter {
   font-size: 11px;
-<<<<<<< HEAD
-  font-weight: 11px;
-=======
   font-weight: 100;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(76, 76, 8);
   text-decoration:line-through;
   text-transform: uppercase;
   font-family: 'Exile', Arial, Helvetica, sans-serif;
 }
+
 .becauseELetter {
   font-size:44px;
-<<<<<<< HEAD
-  font-weight: 30px;
-=======
   font-weight: 300;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(170, 7, 7);
   text-decoration:line-through;
   text-transform: lowercase;
   font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
 }
+
 .becauseCLetter {
   font-size: 55px;
-<<<<<<< HEAD
-  font-weight: 33px;
-=======
   font-weight: 300;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(17, 144, 7);
   text-decoration:dotted;
   text-transform: lowercase;
   font-family: 'cochin',Arial, Helvetica, sans-serif;
 }
+
 .becauseALetter {
   font-size: 55px;
-<<<<<<< HEAD
-  font-weight: 60px;
-  color: rgb(87, 35, 1);
-=======
   font-weight: 600;
   color: royalblue;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:dotted;
   text-transform: uppercase;
   font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
+
 .becauseULetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 60px;
-  color: rgb(101, 101, 3);
-=======
   font-weight: 600;
   color: teal;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:none;
   text-transform: lowercase;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
+
 .becauseSLetter {
   font-size: 20px;
-<<<<<<< HEAD
-  font-weight: 50px;
-  color: rgb(79, 5, 116);
-=======
   font-weight: 700;
   color: papayawhip;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:none;
   text-transform:uppercase;
   font-family: 'Battamabng', Arial, Helvetica, sans-serif;
 }
+
 .becauseETwoLetter {
   font-size: 66px;
-<<<<<<< HEAD
-  font-weight: 20px;
-  color: rgb(228, 128, 148);
-=======
   font-weight: 200;
   color: khaki;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:none;
   text-transform: lowercase;
   font-family: 'Exile', Arial, Helvetica, sans-serif;
@@ -739,52 +540,35 @@ font-family: 'Exile', Arial, Helvetica, sans-serif;
 
 .theyTLetter {
   font-size: 33px;
-<<<<<<< HEAD
-  font-weight: 44px;
-  color: rgb(163, 163, 52);
-=======
   font-weight: 400;
   color: darkslategrey;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:dashed;
   text-transform: uppercase;
   font-family: 'Cherry bomb one', Arial, Helvetica, sans-serif;
 }
+
 .theyHLetter {
   font-size: 43px;
-<<<<<<< HEAD
-  font-weight: 77px;
-  color: rgba(51, 205, 5, 0.901);
-=======
   font-weight: 700;
   color: cornflowerblue;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:none;
   text-transform: lowercase;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .theyELetter {
   font-size: 44px;
-<<<<<<< HEAD
-  font-weight: 89px;
-  color: rgb(4, 100, 138);
-=======
   font-weight: 800;
   color: chocolate;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:double;
   text-transform: lowercase;
   font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 }
+
 .theyYLetter {
   font-size: 29px;
-<<<<<<< HEAD
-  font-weight: 53px;
-  color: rgba(10, 156, 90, 0.705);
-=======
   font-weight: 500;
   color: cyan;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:line-through;
   text-transform: lowercase;
   font-family: 'Playwrite dk loopet', Arial, Helvetica, sans-serif;
@@ -794,61 +578,43 @@ font-family: 'Exile', Arial, Helvetica, sans-serif;
 
 .wantedWLetter {
   font-size: 25px;
-<<<<<<< HEAD
-  font-weight: 44px;
-  color: rgb(174, 58, 8);
-=======
   font-weight: 400;
   color: orangered;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:underline;
   text-transform: uppercase;
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 }
+
 .wantedALetter {
   font-size: 22px;
-<<<<<<< HEAD
-  font-weight: 42px;
-=======
   font-weight: 400;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(175, 93, 5);
   text-decoration:solid;
   text-transform: lowercase;
   font-family: 'Noto san tc', Arial, Helvetica, sans-serif;
 }
+
 .wantedNLetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 60px;
-  color: rgba(197, 17, 56, 0.89);
-=======
   font-weight: 600;
   color: peru;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:dotted;
   text-transform: lowercase;
   font-family: 'dancing script', Arial, Helvetica, sans-serif;
 }
+
 .wantedTLetter {
   font-size: 80px;
-<<<<<<< HEAD
-  font-weight: 21px;
-=======
   font-weight: 200;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(5, 44, 173);
   text-decoration:none;
   text-transform: lowercase;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
+
 .wantedELetter {
   font-size: 20px;
-<<<<<<< HEAD
-  font-weight: 40px;
-=======
   font-weight: normal;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(90, 11, 175);
   text-decoration:wavy;
   text-transform: uppercase;
@@ -856,128 +622,86 @@ font-family: 'Exile', Arial, Helvetica, sans-serif;
 }
 .wantedDLetter {
   font-size: 20px;
-<<<<<<< HEAD
-  font-weight: 10px;
-=======
   font-weight: 100;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(78, 190, 183);
   text-decoration:dotted;
   text-transform: lowercase;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 /* TO word */
 
-<<<<<<< HEAD
-.toTLetter {
-  font-size: 30px;
-  font-weight: 56px;
-  color: rgb(116, 6, 120);
-  text-decoration:none;
-  text-transform: uppercase;
-  font-family: 'Grandstander', Arial, Helvetica, sans-serif;
-}
-.toOLetter {
-  font-size: 77px;
-  font-weight: 44px;
-  color: rgb(35, 14, 128);
-=======
-.toTLetter,
+.toTLetter ,
 .toOLetter {
   font-size: 77px;
   font-weight: lighter;
   color: lightsalmon;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:wavy;
   text-transform: capitalize;
   font-family: 'Vast shadow', Arial, Helvetica, sans-serif;
+
 }
 
 /* IMPROVE word */
 
 .improveILetter {
   font-size: 90px;
-<<<<<<< HEAD
-  font-weight: 55px;
-=======
   font-weight: 500;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(79, 10, 10);
   text-decoration:overline;
   text-transform: uppercase;
   font-family: 'Playwrite MX guides', Arial, Helvetica, sans-serif;
 }
+
 .improveMLetter {
   font-size: 33px;
-<<<<<<< HEAD
-  font-weight: 33px;
-=======
   font-weight: 300;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(160, 71, 196);
   text-decoration:double;
   text-transform: uppercase;
   font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
 }
+
 .improvePLetter {
   font-size: 77px;
-<<<<<<< HEAD
-  font-weight: 76px;
-=======
   font-weight: 700;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(35, 157, 63);
   text-decoration:line-through;
   text-transform: uppercase;
   font-family: 'Flavors', Arial, Helvetica, sans-serif;
 }
+
 .improveRLetter {
   font-size: 66px;
-<<<<<<< HEAD
-  font-weight: 66px;
-=======
   font-weight: 600;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: rgb(198, 20, 88);
   text-decoration:dotted;
   text-transform: lowercase;
   font-family: 'Playwrite hu', Arial, Helvetica, sans-serif;
 }
+
 .improveOLetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 60px;
-=======
   font-weight: 900;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   color: beige;
   text-decoration:double;
   text-transform: lowercase;
   font-family: 'times',Arial, Helvetica, sans-serif;
 }
+
 .improveVLetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 60px;
-  color: rgb(4, 153, 91);
-=======
   font-weight: 100;
   color: hotpink;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:overline;
   text-transform: lowercase;
   font-family: 'Times new roman', Arial, Helvetica, sans-serif;
 }
+
 .improveELetter {
   font-size: 22px;
-<<<<<<< HEAD
-  font-weight: 55px;
-  color: rgb(118, 55, 211);
-=======
   font-weight: 500;
   color:indigo;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:line-through;
   text-transform: lowercase;
   font-family: 'Jaro', Arial, Helvetica, sans-serif;
@@ -987,65 +711,44 @@ font-family: 'Exile', Arial, Helvetica, sans-serif;
 
 .theirTLetter {
   font-size: 40px;
-<<<<<<< HEAD
-  font-weight: 31px;
-  color: rgb(167, 0, 245);
-=======
-  font-weight: bolder;
+  font-weight: 300;
   color:lime;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:double;
   text-transform: lowercase;
   font-family: 'Caveat', Arial, Helvetica, sans-serif;
 }
+
 .theirHLetter {
   font-size: 30px;
-<<<<<<< HEAD
-  font-weight: 20px;
-  color: rgb(15, 26, 190);
-=======
-  font-weight: normal;
+  font-weight: 200;
   color: blue;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  text-decoration:dotted;
+  text-decoration: dotted;
   text-transform: uppercase;
   font-family: 'cherry bomb one', Arial, Helvetica, sans-serif;
 }
+
 .theirELetter {
   font-size: 44px;
-<<<<<<< HEAD
-  font-weight: 20px;
-  color: rgb(255, 0, 4);
-=======
   font-weight: 300;
   color: antiquewhite;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  text-decoration:line-through;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
 }
+
 .theirILetter {
   font-size: 30px;
-<<<<<<< HEAD
-  font-weight: 20px;
-  color: rgb(30, 158, 98);
-=======
   font-weight: 200;
   color: fuchsia;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  text-decoration:line-through;
+  text-decoration: line-through;
   text-transform: uppercase;
   font-family: 'Poesten One', Arial, Helvetica, sans-serif;
 }
+
 .theirRLetter {
   font-size: 22px;
-<<<<<<< HEAD
-  font-weight: 22px;
-  color: rgb(186, 186, 7);
-=======
   font-weight: 200;
   color: yellowgreen;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:none;
   text-transform: lowercase;
   font-family: 'Pacifico', Arial, Helvetica, sans-serif;
@@ -1055,51 +758,35 @@ font-family: 'Exile', Arial, Helvetica, sans-serif;
 
 .rootRLetter {
   font-size: 20px;
-<<<<<<< HEAD
-  font-weight: 10px;
-  color: rgba(111, 0, 255, 0.681);
-=======
-  font-weight: 800;
-  color: lavender;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
+  font-weight: 100;
+  color: rgb(111, 0, 255);
   text-decoration:none;
   text-transform: lowercase;
   font-family: 'Flavors',Arial, Helvetica, sans-serif;
 }
+
 .rootOLetter {
   font-size: 30px;
   font-weight: normal;
-<<<<<<< HEAD
-  color: rgb(176, 19, 155);
-=======
   color: plum;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  text-decoration:dashed;
+  text-decoration: dashed;
   text-transform: uppercase;
   font-family:'Press Start 2P', Arial, Helvetica, sans-serif;
 }
+
 .rootOTwoLetter {
   font-size: 10px;
-<<<<<<< HEAD
-  font-weight: 28px;
-  color: rgb(6, 145, 124);
-=======
   font-weight: 200;
   color: aquamarine;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:solid;
   text-transform: uppercase;
   font-family: 'Jaro', Arial, Helvetica, sans-serif;
 }
+
 .rootTLetter {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 44px;
-  color: rgb(8, 188, 191);
-=======
-  font-weight: 200;
+  font-weight: 400;
   color:saddlebrown;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:none;
   text-transform: uppercase;
   font-family:'Fjalla one', Arial, Helvetica, sans-serif;
@@ -1109,79 +796,52 @@ font-family: 'Exile', Arial, Helvetica, sans-serif;
 
 .skillsSLetter {
   font-size: 55px;
-<<<<<<< HEAD
-  font-weight: 44px;
-  color: rgb(59, 127, 245);
-=======
   font-weight: 400;
   color: snow;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:none;
   text-transform: uppercase;
   font-family: 'Tilt Warp';
 }
+
 .skillsKLetter {
   font-size: 33px;
-<<<<<<< HEAD
-  font-weight: 10px;
-  color: rgb(7, 111, 64);
-=======
-  font-weight: bolder;
+  font-weight: 100;
   color:goldenrod;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:dotted;
   text-transform: uppercase;
   font-family: 'Vast Shadow', Arial, Helvetica, sans-serif;
 }
+
 .skillsILetter {
-<<<<<<< HEAD
-  font-size: 22px;
-  font-weight: 90px;
-  color: rgb(255, 255, 255);
-=======
   font-size: 22;
   font-weight: 950;
   color: wheat;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:line-through;
   text-transform: uppercase;
   font-family: 'Playwrite One', Arial, Helvetica, sans-serif;
 }
+
 .skillsLLetter {
   font-size: 7px;
-<<<<<<< HEAD
-  font-weight: 44px;
-  color: rgb(214, 6, 6);
-=======
   font-weight: 400;
   color: tomato;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:overline;
   text-transform: uppercase;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .skillsLTwoLetter {
   font-size: 66px;
-<<<<<<< HEAD
-  font-weight: 50px;
-  color: rgb(189, 53, 3);
-=======
   font-weight: 500;
   color: navy;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:underline;
   text-transform: lowercase;
   font-family: Arial, Helvetica, sans-serif;
 }
 .skillsSTwoLetter {
 font-size: 10px;
-<<<<<<< HEAD
-  font-weight: 69px;
-  color: rgb(193, 16, 224);
-=======
   font-weight: 600;
   color: navajowhite;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:wavy;
   text-transform: lowercase;
   font-family: 'Dancing script', Arial, Helvetica, sans-serif;
@@ -1191,40 +851,27 @@ font-size: 10px;
 
 .hyphen {
   font-size: 20px;
-<<<<<<< HEAD
-  font-weight: 20px;
-  color: rgb(157, 14, 100);
-=======
   font-weight: 200;
   color: violet;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
   text-decoration:none;
   text-transform: lowercase;
   font-family: 'Jacques francois shadow', Arial, Helvetica, sans-serif,
 }
+
 .exclamation-mark {
   font-size: 5px;
-<<<<<<< HEAD
-  font-weight: 60px;
-  color: rgb(217, 73, 191);
-=======
   font-weight: 600;
   color: palevioletred;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  text-decoration:wavy;
+  text-decoration: none;
   text-transform: none;
   font-family: 'Playwrite DK Loopet', Arial, Helvetica, sans-serif;
 }
+
 .question-mark {
   font-size: 15px;
-<<<<<<< HEAD
-  font-weight: 44px;
-  color: rgb(86, 34, 56);
-=======
   font-weight: 400;
-  color: greenyellow;
->>>>>>> 31debc2 (Fixed Readme.md spelling errors)
-  text-decoration:none;
+  color: rgb(86, 34, 56);
+  text-decoration: dotted;
   text-transform: none;
   font-family: 'Battambang',Arial, Helvetica, sans-serif;
 }
