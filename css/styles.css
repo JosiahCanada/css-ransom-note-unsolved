@@ -1,6 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@font-face {
+  font-family:'Lato';
+  src: url(Lato/Lato-Italic.ttf);
+}
+@font-face{
+  font-family:'Quicksand';
+  src: url(Quicksand/Quicksand-Medium.ttf);
+}
+@font-face{
+  font-family: 'Press Start2P';
+  src: url(Press_Start_2P/PressStart2P-Regular.ttf);
+}
+@font-face{
+  font-family: 'Exile';
+  src: url(Exile/Exile/Exile-Regular.ttf);
+}
+@font-face{
+  font-family: 'Battambang';
+  src: url(Battambang/Battambang-Regular.ttf);
+}
+@font-face{
+  font-family: 'Dancing script';
+  src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: 'Fjalla One';
+  src: url(Fjalla_One/FjallaOne-Regular.ttf);
+}
+@font-face{
+  font-family: 'Noto Sans TC';
+  src: url(Noto_Sans_TC/NotoSansTC-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: 'Playwrite DK Loopet';
+  src: url(Playwrite_DK_Loopet/PlaywriteDKLoopet-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: 'Playwrite HU';
+  src: url(Playwrite_HU/PlaywriteHU-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: 'Poetsen One';
+  src: url(Poetsen_One/PoetsenOne-Regular.ttf);
+}
+@font-face{
+  font-family: 'Cherry Bomb One';
+  src: url(Cherry_Bomb_One/CherryBombOne-Regular.ttf);
+}
+@font-face{
+  font-family: 'Playwrite Mx Guides';
+  src: url(Playwrite_MX_Guides/PlaywriteMXGuides-Regular.ttf);
+}
+@font-face{
+  font-family: 'Flavors';
+  src: url(Flavors/Flavors-Regular.ttf);
+}
+@font-face{
+  font-family: 'Grandstander';
+  src: url(Grandstander/Grandstander-Italic-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: 'Jacques Francois Shadow';
+src: url(Jacques_Francois_Shadow/JacquesFrancoisShadow-Regular.ttf);
+}
+@font-face{
+  font-family: 'Jaro';
+  src: url(Jaro/Jaro-Regular-VariableFont_opsz.ttf);
+}
+@font-face{
+  font-family: 'DM Serif Display';
+  src: url(Noto_Sans_TC/NotoSansTC-VariableFont_wght.ttf);
+}
+@font-face{
+  font-family: 'Pacifico';
+  src: url(Pacifico/Pacifico-Regular.ttf);
+}
+@font-face{
+  font-family: 'Tilt Warp';
+  src: url(Tilt_Warp/TiltWarp-Regular-VariableFont_XROT,YROT.ttf);
+}
+@font-face{
+  font-family: 'Vast Shadow';
+  src: url(Vast_Shadow/VastShadow-Regular.ttf);
+}
+@font-face{
+  font-family: 'Caveat';
+  src: url(Caveat/Caveat-VariableFont_wght.ttf);
+}
 
 * {
   padding: 0;
@@ -83,222 +171,715 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-size: 90px;
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: solid;
+  text-transform: lowercase;
+  font-family: 'fantasy', Arial;
 }
 
 .didILetter {
+  font-size: 10px;
+  font-weight: none;
+  color: blueviolet;
+  text-decoration: underline;
+  text-transform: none;
+  font-family: 'Times', 'Times New Roman', serif, Arial;
 }
 
 .didDTwoLetter {
+  font-size: 50px;
+  font-weight: 100px;
+  color: rgba(28, 241, 4, 0.884);
+  text-decoration: none;
+  text-transform: lowercase;
+  font-family:'Calibri', sans-serif , Arial, serif;
 }
 
 /* THE word */
 
 .theTLetter {
+  font-size: 40px;
+  font-weight: 0px;
+  color: aquamarine;
+  text-decoration: wavy;
+  text-transform: uppercase;
+  font-family: 'Roboto', arial , sans-serif;
 }
 
 .theHLetter {
+  font-size: 25px;
+  font-weight: 150px;
+  color:rgba(240, 123, 91, 0.884);
+  text-decoration: wavy;
+  text-transform: none;
+  font-family: Impact , arial;
 }
 
 .theELetter {
+  font-size: 69px;
+  font-weight: 40px;
+  color: rgba(178, 12, 12, 0.727);
+  text-decoration: dotted;
+  text-transform: capitalize;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 /* FRONT-END word */
 
 .frontendFLetter {
+  font-size: 140px;
+  font-weight: normal;
+  color: skyblue;
+  text-decoration: underline;
+  text-transform: initial;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+
 }
 
 .frontendRLetter {
+  font-size: 20px;
+  font-weight: lighter;
+  color:rgb(107, 231, 94);
+  text-decoration:#282a56;
+  text-transform: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .frontendOLetter {
+  font-size: 5px;
+  font-weight: 60px;
+  color: beige;
+  text-decoration:double;
+  text-transform: lowercase;
+  font-family:'Segoe UI', Tahoma,  Verdana, sans-serif;
 }
 
 .frontendNLetter {
+  font-size: 35px;
+  font-weight: normal;
+  color: lightpink;
+  text-decoration:overline;
+  text-transform: capitalize;
+  font-family: 'Raleway Dots',Arial, Helvetica, sans-serif;
 }
 
 .frontendTLetter {
+  font-size: 90px;
+  font-weight: 1px;
+  color: rgb(181, 181, 36);
+  text-decoration:double;
+  text-transform: none;
+  font-family: 'Press Start2P';
 }
 
 .frontendELetter {
+  font-size: 5px;
+  font-weight: 60px;
+  color: rgb(54, 5, 46);
+  text-decoration: ivory;
+  text-transform: lowercase;
+  font-family: 'Cochin', Arial, Helvetica, sans-serif;
 }
 
 .frontendNTwoLetter {
+  font-size: 43px;
+  font-weight: 0px;
+  color: rgb(50, 132, 113);
+  text-decoration:underline;
+  text-transform: lowercase;
+  font-family: Monospace, Arial, Helvetica, sans-serif;
 }
 
 .frontendDLetter {
+  font-size: 20px;
+  font-weight: 29px;
+  color: rgb(14, 0, 0);
+  text-decoration: bold;
+  text-transform: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  font-size: 55px;
+  font-weight: 10px;
+  color: rgba(22, 71, 6, 0.877);
+  text-decoration:none;
+  text-transform: lowercase;
+font-family: 'Exile', Arial, Helvetica, sans-serif;
 }
 .developerELetter {
+  font-size: 44px;
+  font-weight: 30px;
+  color: rgb(67, 97, 172);
+  text-decoration:dashed;
+  text-transform: capitalize;
+  font-family: 'Battambang', Arial, Helvetica, sans-serif;
 }
 .developerVLetter {
+  font-size: 16px;
+  font-weight: 22px;
+  color: rgb(255, 255, 0);
+  text-decoration:dotted;
+  text-transform: capitalize;
+  font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
 }
 .developerETwoLetter {
+  font-size: 33px;
+  font-weight: 90px;
+  color: rgb(213, 53, 112);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family: 'Noto Sans Tc', Arial, Helvetica, sans-serif;
 }
 .developerLLetter {
+  font-size: 22px;
+  font-weight: 40px;
+  color: rgb(11, 199, 92);
+  text-decoration:line-through;
+  text-transform: capitalize;
+  font-family: 'Playwrite DK Loopet', Arial, Helvetica, sans-serif;
 }
 .developerOLetter {
+  font-size: 70px;
+  font-weight: 5px;
+  color: rgb(194, 118, 11);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family: 'Playwrite HU', Arial, Helvetica, sans-serif;
 }
 .developerPLetter {
+  font-size: 5px;
+  font-weight: 60px;
+  color: rgb(145, 13, 13);
+  text-decoration:overline;
+  text-transform: lowercase;
+  font-family: 'Poesten One', Arial, Helvetica, sans-serif;
 }
 .developerEThreeLetter {
+  font-size: 30px;
+  font-weight: 25px;
+  color: rgb(0, 255, 85);
+  text-decoration:double;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', Arial, Helvetica, sans-serif;
 }
 .developerRLetter {
+  font-size: 60px;
+  font-weight: 60px;
+  color: rgb(11, 85, 92);
+  text-decoration:underline;
+  text-transform: lowercase;
+  font-family: 'Arial Narrow Bold', Arial, Helvetica, sans-serif;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  font-size: 19px;
+  font-weight: 90px;
+  color: rgb(5, 140, 167);
+  text-decoration:wavy;
+  text-transform: capitalize;
+  font-family: 'Tahoma', Arial, Helvetica, sans-serif;
 }
 .takeALetter {
+  font-size: 30px;
+  font-weight: 1px;
+  color: rgb(39, 32, 121);
+  text-decoration:line-through;
+  text-transform:capitalize;
+  font-family: 'Geneva', Arial, Helvetica, sans-serif;
 }
 .takeKLetter {
+  font-size: 40px;
+  font-weight: 10px;
+  color: rgb(93, 4, 99);
+  text-decoration:wavy;
+  text-transform: capitalize;
+  font-family: 'Cambria',Arial, Helvetica, sans-serif;
 }
 .takeELetter {
+  font-size: 44px;
+  font-weight: 77px;
+  color: rgb(154, 64, 11);
+  text-decoration:dotted;
+  text-transform: uppercase;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 /* UP word */
 
 .upULetter {
+  font-size: 50px;
+  font-weight: 30px;
+  color: rgba(54, 207, 71, 0.542);
+  text-decoration:wavy;
+  text-transform: lowercase;
+  font-family: 'Playwrite Mx Guides',Arial, Helvetica, sans-serif;
 }
 .upPLetter {
+  font-size: 20px;
+  font-weight: 50px;
+  color: rgb(99, 197, 214);
+  text-decoration:dashed;
+  text-transform:initial;
+  font-family: 'Cherry Bomb One',Arial, Helvetica, sans-serif;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  font-size: 20px;
+  font-weight: 30px;
+  color: rgb(17, 201, 91);
+  text-decoration:dotted;
+  text-transform: lowercase;
+  font-family: 'Caveat', Arial, Helvetica, sans-serif;
 }
 .gardeningALetter {
+  font-size: 67px;
+  font-weight: 20px;
+  color: rgb(159, 31, 138);
+  text-decoration:dashed;
+  text-transform: capitalize;
+  font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
 }
 .gardeningRLetter {
+  font-size: 25px;
+  font-weight: 71px;
+  color: rgba(20, 228, 44, 0.575);
+  text-decoration:line-through;
+  text-transform: capitalize;
+  font-family: 'Flavors', Arial, Helvetica, sans-serif;
 }
 .gardeningDLetter {
+  font-size: 44px;
+  font-weight: 29px;
+  color: rgb(177, 78, 6);
+  text-decoration:underline;
+  text-transform: capitalize;
+  font-family: 'Jaro', Arial, Helvetica, sans-serif;
 }
 .gardeningELetter {
+  font-size: 90px;
+  font-weight: 16px;
+  color: rgb(141, 141, 10);
+  text-decoration:double;
+  text-transform: lowercase;
+  font-family: 'Tilt Warp', Arial, Helvetica, sans-serif;
 }
 .gardeningNLetter {
+  font-size: 31px;
+  font-weight: 47px;
+  color: rgb(0, 0, 0);
+  text-decoration:overline;
+  text-transform: lowercase;
+  font-family: 'Vast Shadow', Arial, Helvetica, sans-serif;
 }
 .gardeningILetter {
+  font-size: 10px;
+  font-weight: 34px;
+  color: rgb(249, 10, 10);
+  text-decoration:double;
+  text-transform: capitalize;
+  font-family: 'Pacifico', Arial, Helvetica, sans-serif;
 }
 .gardeningNTwoLetter {
+  font-size: 5px;
+  font-weight: 4px;
+  color: rgb(154, 12, 149);
+  text-decoration:dotted;
+  text-transform: capitalize;
+  font-family: 'Jacques Francois Shadow', Arial, Helvetica, sans-serif;
 }
 .gardeningGTwoLetter {
+  font-size: 40px;
+  font-weight: 55px;
+  color: rgb(10, 154, 125);
+  text-decoration:dotted;
+  text-transform: capitalize;
+  font-family: 'Grandstander', Arial, Helvetica, sans-serif;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  font-size: 11px;
+  font-weight: 11px;
+  color: rgb(76, 76, 8);
+  text-decoration:line-through;
+  text-transform: uppercase;
+  font-family: 'Exile', Arial, Helvetica, sans-serif;
 }
 .becauseELetter {
+  font-size:44px;
+  font-weight: 30px;
+  color: rgb(170, 7, 7);
+  text-decoration:line-through;
+  text-transform: lowercase;
+  font-family: 'Fjalla One', Arial, Helvetica, sans-serif;
 }
 .becauseCLetter {
+  font-size: 55px;
+  font-weight: 33px;
+  color: rgb(17, 144, 7);
+  text-decoration:dotted;
+  text-transform: lowercase;
+  font-family: 'cochin',Arial, Helvetica, sans-serif;
 }
 .becauseALetter {
+  font-size: 55px;
+  font-weight: 60px;
+  color: rgb(87, 35, 1);
+  text-decoration:dotted;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
 }
 .becauseULetter {
+  font-size: 5px;
+  font-weight: 60px;
+  color: rgb(101, 101, 3);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 .becauseSLetter {
+  font-size: 20px;
+  font-weight: 50px;
+  color: rgb(79, 5, 116);
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family: 'Battamabng', Arial, Helvetica, sans-serif;
 }
 .becauseETwoLetter {
+  font-size: 66px;
+  font-weight: 20px;
+  color: rgb(228, 128, 148);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family: 'Exile', Arial, Helvetica, sans-serif;
 }
 
 /* THEY word */
 
 .theyTLetter {
+  font-size: 33px;
+  font-weight: 44px;
+  color: rgb(163, 163, 52);
+  text-decoration:dashed;
+  text-transform: uppercase;
+  font-family: 'Cherry bomb one', Arial, Helvetica, sans-serif;
 }
 .theyHLetter {
+  font-size: 43px;
+  font-weight: 77px;
+  color: rgba(51, 205, 5, 0.901);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .theyELetter {
+  font-size: 44px;
+  font-weight: 89px;
+  color: rgb(4, 100, 138);
+  text-decoration:double;
+  text-transform: lowercase;
+  font-family: 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
 }
 .theyYLetter {
+  font-size: 29px;
+  font-weight: 53px;
+  color: rgba(10, 156, 90, 0.705);
+  text-decoration:line-through;
+  text-transform: lowercase;
+  font-family: 'Playwrite dk loopet', Arial, Helvetica, sans-serif;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-size: 25px;
+  font-weight: 44px;
+  color: rgb(174, 58, 8);
+  text-decoration:underline;
+  text-transform: uppercase;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
 }
 .wantedALetter {
+  font-size: 22px;
+  font-weight: 42px;
+  color: rgb(175, 93, 5);
+  text-decoration:solid;
+  text-transform: lowercase;
+  font-family: 'Noto san tc', Arial, Helvetica, sans-serif;
 }
 .wantedNLetter {
+  font-size: 5px;
+  font-weight: 60px;
+  color: rgba(197, 17, 56, 0.89);
+  text-decoration:dotted;
+  text-transform: lowercase;
+  font-family: 'dancing script', Arial, Helvetica, sans-serif;
 }
 .wantedTLetter {
+  font-size: 80px;
+  font-weight: 21px;
+  color: rgb(5, 44, 173);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .wantedELetter {
+  font-size: 20px;
+  font-weight: 40px;
+  color: rgb(90, 11, 175);
+  text-decoration:wavy;
+  text-transform: uppercase;
+  font-family: 'playwrite hu', Arial, Helvetica, sans-serif;
 }
 .wantedDLetter {
+  font-size: 20px;
+  font-weight: 10px;
+  color: rgb(78, 190, 183);
+  text-decoration:dotted;
+  text-transform: lowercase;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* TO word */
 
 .toTLetter {
+  font-size: 30px;
+  font-weight: 56px;
+  color: rgb(116, 6, 120);
+  text-decoration:none;
+  text-transform: uppercase;
+  font-family: 'Grandstander', Arial, Helvetica, sans-serif;
 }
 .toOLetter {
+  font-size: 77px;
+  font-weight: 44px;
+  color: rgb(35, 14, 128);
+  text-decoration:wavy;
+  text-transform: capitalize;
+  font-family: 'Vast shadow', Arial, Helvetica, sans-serif;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-size: 90px;
+  font-weight: 55px;
+  color: rgb(79, 10, 10);
+  text-decoration:overline;
+  text-transform: uppercase;
+  font-family: 'Playwrite MX guides', Arial, Helvetica, sans-serif;
 }
 .improveMLetter {
+  font-size: 33px;
+  font-weight: 33px;
+  color: rgb(160, 71, 196);
+  text-decoration:double;
+  text-transform: uppercase;
+  font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
 }
 .improvePLetter {
+  font-size: 77px;
+  font-weight: 76px;
+  color: rgb(35, 157, 63);
+  text-decoration:line-through;
+  text-transform: uppercase;
+  font-family: 'Flavors', Arial, Helvetica, sans-serif;
 }
 .improveRLetter {
+  font-size: 66px;
+  font-weight: 66px;
+  color: rgb(198, 20, 88);
+  text-decoration:dotted;
+  text-transform: lowercase;
+  font-family: 'Playwrite hu', Arial, Helvetica, sans-serif;
 }
 .improveOLetter {
+  font-size: 5px;
+  font-weight: 60px;
+  color: beige;
+  text-decoration:double;
+  text-transform: lowercase;
+  font-family: 'times',Arial, Helvetica, sans-serif;
 }
 .improveVLetter {
+  font-size: 5px;
+  font-weight: 60px;
+  color: rgb(4, 153, 91);
+  text-decoration:overline;
+  text-transform: lowercase;
+  font-family: 'Times new roman', Arial, Helvetica, sans-serif;
 }
 .improveELetter {
+  font-size: 22px;
+  font-weight: 55px;
+  color: rgb(118, 55, 211);
+  text-decoration:line-through;
+  text-transform: lowercase;
+  font-family: 'Jaro', Arial, Helvetica, sans-serif;
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  font-size: 40px;
+  font-weight: 31px;
+  color: rgb(167, 0, 245);
+  text-decoration:double;
+  text-transform: lowercase;
+  font-family: 'Caveat', Arial, Helvetica, sans-serif;
 }
 .theirHLetter {
+  font-size: 30px;
+  font-weight: 20px;
+  color: rgb(15, 26, 190);
+  text-decoration:dotted;
+  text-transform: uppercase;
+  font-family: 'cherry bomb one', Arial, Helvetica, sans-serif;
 }
 .theirELetter {
+  font-size: 44px;
+  font-weight: 20px;
+  color: rgb(255, 0, 4);
+  text-decoration:line-through;
+  text-transform: uppercase;
+  font-family: 'DM Serif Display', Arial, Helvetica, sans-serif;
 }
 .theirILetter {
+  font-size: 30px;
+  font-weight: 20px;
+  color: rgb(30, 158, 98);
+  text-decoration:line-through;
+  text-transform: uppercase;
+  font-family: 'Poesten One', Arial, Helvetica, sans-serif;
 }
 .theirRLetter {
+  font-size: 22px;
+  font-weight: 22px;
+  color: rgb(186, 186, 7);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family: 'Pacifico', Arial, Helvetica, sans-serif;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-size: 20px;
+  font-weight: 10px;
+  color: rgba(111, 0, 255, 0.681);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family: 'Flavors',Arial, Helvetica, sans-serif;
 }
 .rootOLetter {
+  font-size: 30px;
+  font-weight: normal;
+  color: rgb(176, 19, 155);
+  text-decoration:dashed;
+  text-transform: uppercase;
+  font-family:'Press Start 2P', Arial, Helvetica, sans-serif;
 }
 .rootOTwoLetter {
+  font-size: 10px;
+  font-weight: 28px;
+  color: rgb(6, 145, 124);
+  text-decoration:solid;
+  text-transform: uppercase;
+  font-family: 'Jaro', Arial, Helvetica, sans-serif;
 }
 .rootTLetter {
+  font-size: 5px;
+  font-weight: 44px;
+  color: rgb(8, 188, 191);
+  text-decoration:none;
+  text-transform: uppercase;
+  font-family:'Fjalla one', Arial, Helvetica, sans-serif;
 }
 
 /* SKILLS word */
 
 .skillsSLetter {
+  font-size: 55px;
+  font-weight: 44px;
+  color: rgb(59, 127, 245);
+  text-decoration:none;
+  text-transform: uppercase;
+  font-family: 'Tilt Warp';
 }
 .skillsKLetter {
+  font-size: 33px;
+  font-weight: 10px;
+  color: rgb(7, 111, 64);
+  text-decoration:dotted;
+  text-transform: uppercase;
+  font-family: 'Vast Shadow', Arial, Helvetica, sans-serif;
 }
 .skillsILetter {
+  font-size: 22px;
+  font-weight: 90px;
+  color: rgb(255, 255, 255);
+  text-decoration:line-through;
+  text-transform: uppercase;
+  font-family: 'Playwrite One', Arial, Helvetica, sans-serif;
 }
 .skillsLLetter {
+  font-size: 7px;
+  font-weight: 44px;
+  color: rgb(214, 6, 6);
+  text-decoration:overline;
+  text-transform: uppercase;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .skillsLTwoLetter {
+  font-size: 66px;
+  font-weight: 50px;
+  color: rgb(189, 53, 3);
+  text-decoration:underline;
+  text-transform: lowercase;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .skillsSTwoLetter {
+font-size: 10px;
+  font-weight: 69px;
+  color: rgb(193, 16, 224);
+  text-decoration:wavy;
+  text-transform: lowercase;
+  font-family: 'Dancing script', Arial, Helvetica, sans-serif;
 }
 
 /* SYMBOLS */
 
 .hyphen {
+  font-size: 20px;
+  font-weight: 20px;
+  color: rgb(157, 14, 100);
+  text-decoration:none;
+  text-transform: lowercase;
+  font-family: 'Jacques francois shadow', Arial, Helvetica, sans-serif,
 }
 .exclamation-mark {
+  font-size: 5px;
+  font-weight: 60px;
+  color: rgb(217, 73, 191);
+  text-decoration:wavy;
+  text-transform: none;
+  font-family: 'Playwrite DK Loopet', Arial, Helvetica, sans-serif;
 }
 .question-mark {
+  font-size: 15px;
+  font-weight: 44px;
+  color: rgb(86, 34, 56);
+  text-decoration:none;
+  text-transform: none;
+  font-family: 'Battambang',Arial, Helvetica, sans-serif;
 }
